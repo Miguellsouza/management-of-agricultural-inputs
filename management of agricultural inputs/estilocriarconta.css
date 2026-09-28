@@ -1,0 +1,73 @@
+/*Parte do Estilo da tela de Criação de Conta*/
+
+body{
+    background: linear-gradient(to left, white, lightgreen);
+}
+
+#divformcriar{
+    text-align: center;
+    padding: 20px;
+}
+
+#fieldsetcriar{
+    background-color: white;
+    width: 480px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+
+    grid-template-columns: 60px 1fr;
+    display: grid;
+    gap: 15px;
+    align-items: center;
+}
+
+#fieldsetcriar > div {
+    grid-column: 1/-1;
+}
+
+.inputcriarconta{
+    width: 480px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+#botaocriar{
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    width: 480px;
+    height: 40px;
+    background-color: lightgreen;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#botaocriar:hover{
+    background-color: rgb(45, 155, 45);
+}
+
+#buttonjatenhoconta{
+    display: block;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    width: 480px;
+    height: 40px;
+    background-color: white;
+    font-family: arial;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+}
+
+#buttonjatenhoconta:hover{
+    background-color: rgba(128, 128, 128, 0.315);
+}

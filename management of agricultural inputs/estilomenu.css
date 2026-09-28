@@ -1,0 +1,52 @@
+/*Menu*/
+
+#bodymenu{
+    background-image: url(imagecoffeharvest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#div1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 80px;
+}
+
+
+#fieldsetcalculadora{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;    
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+    grid-template-columns: 60px 1fr;
+    display: grid;
+    gap: 15px;
+    align-items: center;
+}
+
+#fieldsetcalculadora > div{
+    grid-column: 1/-1;
+}
+
+
+.buttonmenu{
+    width: 400px;
+    height: 70px;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(30, 179, 30);
+    color: white;
+}
+
+.buttonmenu:hover{
+    background-color: rgb(37, 131, 37);
+}
